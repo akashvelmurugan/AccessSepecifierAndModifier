@@ -1,6 +1,6 @@
 package com.publicone;
 
-import publictwo.Sample;
+import com.publictwo.Sample;
 
 public class BaseClass extends Sample{
 
