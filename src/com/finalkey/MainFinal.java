@@ -2,7 +2,7 @@ package com.finalkey;
 
 public class MainFinal extends FinalClass{
 
-	@Override
+//	@Override
 //	public void method() {
-	}
+//	}
 }

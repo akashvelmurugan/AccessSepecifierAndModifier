@@ -1,4 +1,4 @@
-package com.syncronise;
+package com.syncronicekey;
 
 import com.publicone.Public;
 

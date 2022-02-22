@@ -10,7 +10,7 @@ public class BaseClass extends Sample{
 
 //		//DIFFERENTPAKAGE
 	BaseClass baseClass= new BaseClass();
-		baseClass.methoDifferentPakage();
+	//	baseClass.methoDifferentPakage();
 //		
 //		Sample sample =new Sample();
 		
