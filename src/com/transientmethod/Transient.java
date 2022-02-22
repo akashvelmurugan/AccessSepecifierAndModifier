@@ -20,7 +20,7 @@ public class Transient{
 	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
 		User user=new User();
 		user.userName="Saravanan";
-		user.password="12345";
+	user.password="12345";
 
 		ObjectOutputStream outputStream=new ObjectOutputStream(new FileOutputStream("D:\\trancient\\trancient.txt"));
 		outputStream.writeObject(user);

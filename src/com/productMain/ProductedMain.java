@@ -7,6 +7,6 @@ public class ProductedMain extends Producted{
 
 		ProductedMain productedMain= new ProductedMain();
 		productedMain.productedMethod();
-	
+
 	}
 }
