@@ -4,9 +4,9 @@ public class Aplication {
 
 	private static volatile int counter=0;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		new ReadingThread().start();
-		new WrittingThread().start();	
+		new WrittingThread().start();
 	}
 	static class ReadingThread extends Thread{
 		@Override
