@@ -30,5 +30,7 @@ public class Transient{
 
 		System.out.println(readObject.userName);
 		System.out.println(readObject.password);
+	
+	
 	}
 }

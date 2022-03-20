@@ -7,17 +7,16 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 class User implements Serializable{
-	 transient public String userName;
-	 transient public 
-	 String password;
-	
+	transient String userName;
+	transient String password;
+
 }
 public class Srialization{
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 
 		User user = new User();
 		user.userName="Saravanan";
-		user.password="12345";
+		user.password="password";
 
 		ObjectOutputStream outputStream=new ObjectOutputStream(new FileOutputStream("D:\\trancient\\trancient.txt"));
 		outputStream.writeObject(user);

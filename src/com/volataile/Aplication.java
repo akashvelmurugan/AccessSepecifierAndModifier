@@ -14,7 +14,7 @@ public class Aplication {
 			while (counter<4) {
 
 			}
-			System.out.println("counter reached 4.");
+			System.out.println("counter reached 4."+System.currentTimeMillis());
 		}
 	}
 	static class WrittingThread extends Thread{
@@ -22,7 +22,7 @@ public class Aplication {
 		public void run() {
 			while (counter<10) {
 				counter++;				
-				System.out.println("counter increased "+counter);
+				System.out.println("counter increased "+counter+" "+System.currentTimeMillis());
 			}
 		}
 	}

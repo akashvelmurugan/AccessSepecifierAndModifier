@@ -1,7 +1,4 @@
 package com.syncronicekey;
-
-import com.publicone.Public;
-
 class Number {
 	synchronized public void table (int n) {
 		for (int i = 1; i <= 5; i++) {
@@ -47,6 +44,3 @@ class Number {
 		}
 	}
 }
-
-
-
